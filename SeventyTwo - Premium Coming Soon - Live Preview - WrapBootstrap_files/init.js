@@ -79,6 +79,24 @@ $(function () {
 		));
 	});
 
+	/* ---------------------------------------------------------
+	 * Google maps for cities
+	 */
+
+	$(document).ready(function() {
+	 
+	  $("#cities-carroussel").owlCarousel({
+	 
+	      autoPlay: 3000, //Set AutoPlay to 3 seconds
+	 
+	      items : 1,
+	      itemsDesktop : false,
+	      itemsDesktopSmall : [979,1],
+	      itemsTablet : [768,1]
+	 
+	  });
+	 
+	});
 
 	/* ---------------------------------------------------------
 	 * Form validation
