@@ -474,6 +474,10 @@ form.signup button.btn {
  
 /* Home */
 
+#home a {
+	font-size: 20px;
+}
+
 .heading {
 	color: #fff;
 	font-size: 24px;
@@ -579,7 +583,7 @@ form.signup button.btn {
 	width: 100%;
 	text-align: center;
 	position: absolute;
-	bottom: 40px;
+	bottom: 20px;
 	display: none;
 }
 
@@ -740,6 +744,14 @@ form.signup button.btn {
   width: 100%;
   height: auto;
 }
+
+/* Social */
+
+#social {
+	text-align: center;
+	background: #303F9F;
+}
+
  
 /* Contact */ 
  

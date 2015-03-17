@@ -139,7 +139,7 @@
 			"file": "SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/index.html",
 			"settings":
 			{
-				"buffer_size": 20201,
+				"buffer_size": 13229,
 				"line_ending": "Unix"
 			}
 		},
@@ -147,7 +147,7 @@
 			"file": "SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
 			"settings":
 			{
-				"buffer_size": 16601,
+				"buffer_size": 15062,
 				"line_ending": "Unix"
 			}
 		}
@@ -245,16 +245,17 @@
 	"expanded_folders":
 	[
 		"/Users/htatche/Documents/Nomad Stays/Landing Page",
-		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files"
+		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files",
+		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets"
 	],
 	"file_history":
 	[
+		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/init.js",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/emailAddress.js",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/jquery.backstretch.min.js",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/behavior.js",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/wow.min.js",
-		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/screen_preview.css",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap.html",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/spin.min.js",
@@ -424,6 +425,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#home",
+			"office",
+			".container",
+			"container",
+			"AIzaSyCL0luT17PgvuWglbUMeVBGenoB0XrKMUM",
+			"about",
+			"message",
+			"form-control",
+			".form-control",
+			"develope",
 			"work",
 			"container",
 			"logo",
@@ -541,17 +552,7 @@
 			"subscribe-button",
 			"subscribe-button:h",
 			"before",
-			"subscribe-button:before",
-			"subscribe",
-			"Subscribe",
-			"subscribe",
-			"Subscribe",
-			"subscribe",
-			"Subscribe",
-			"subscribe",
-			"Subscribe",
-			"subscribe",
-			"Subscribe"
+			"subscribe-button:before"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -589,15 +590,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20201,
+						"buffer_size": 13229,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6895,
-								6895
+								3251,
+								3251
 							]
 						],
 						"settings":
@@ -606,7 +607,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2530.0,
+						"translation.y": 716.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -618,15 +619,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16601,
+						"buffer_size": 15062,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12699,
-								12699
+								8461,
+								8461
 							]
 						],
 						"settings":
@@ -634,7 +635,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 11600.0,
+						"translation.y": 7690.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -645,7 +646,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 34.0
 	},
 	"input":
 	{
@@ -693,6 +694,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"init",
+				"SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/init.js"
+			],
 			[
 				"app",
 				"SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css"
@@ -1200,10 +1205,6 @@
 			[
 				"keypadview",
 				"app/assets/javascripts/pos/views/keypad_view.js.coffee"
-			],
-			[
-				"openprice",
-				"app/assets/javascripts/pos/templates/menus/_open_price_popup.emblem"
 			]
 		],
 		"width": 0.0
