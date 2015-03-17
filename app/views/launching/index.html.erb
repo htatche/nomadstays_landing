@@ -1,26 +1,5 @@
-<!DOCTYPE html>
-<html lang="en" data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="NomadStays - Your new worldwide office">
-		<title>NomadStays - Your new worldwide office</title>
-		
-		<!-- Stylesheets -->
-		<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
-		<link href="stylesheets/font-awesome.min.css" rel="stylesheet">
-		<link href="stylesheets/bootstrapValidator.min.css" rel="stylesheet">
-		<link href="stylesheets/ladda-themeless.min.css" rel="stylesheet">
-		<link href="stylesheets/animate.min.css" rel="stylesheet">
-		<link href="stylesheets/owl.carousel.css" rel="stylesheet">
-		<link href="stylesheets/owl.theme.css" rel="stylesheet">
-		<link href="stylesheets/app.css" rel="stylesheet">
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-	<style type="text/css"></style><style type="text/css"></style></head>
-	<body style="overflow: visible;  background-color:#3F51B5">
+	
 		<!-- Preloader -->
 		<div id="preloader" style="display: none;">
 			<div id="status" class="text-center" style="display: none;">
@@ -39,7 +18,7 @@
 			<div class="page">
 				<div class="wrapper">
 					<div class="container">
-						<img src="logo2.png" alt="Logo" width="400">
+						<%= image_tag "logo.png", :alt => "logo", :width => 400 %>
 						<h1 class="heading">Your new worldwide desk</h1>
 						<p>
 							We will make it happen
@@ -92,7 +71,7 @@
 				</div>
 				<div class="row">
 					<div class="col-sm-6">
-						<img src="images/Everything_03.png" alt="Logo" width="400">
+						<%= image_tag "Everything_03.png", :alt => "Logo", :width => "400" %>
 					</div>
 					<div class="col-sm-6">
 						<p class="lead">
@@ -176,7 +155,7 @@
 
 				<div class="row">
 					<div class="col-sm-12">			
-						<img src="images/City-Search_01.png"> </img>	
+						<%= image_tag "City-Search_01.png" %>
 					</div>			
 				</div>
 					
@@ -195,7 +174,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="myself">
-							<img class="gravatar" src="images/gravatar.png"> </img>
+							<%= image_tag "gravatar.png", :class => "gravatar" %>
 							<h4> @htatche </h4>
 								<div class="social">
 									<a href="" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
@@ -240,10 +219,22 @@
 			</div>
 		</section>
 		
-		
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+ 	<%= javascript_include_tag "jquery", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "bootstrap.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "jquery.backstretch.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "jquery.countdown.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "bootstrapValidator.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "emailAddress", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "spin.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "ladda.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "retina.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "wow.min", "data-turbolinks-track" => true %>
+ 	<%= javascript_include_tag "owl.carousel.min", "data-turbolinks-track" => true %>
+
+ 	<%= javascript_include_tag "init", "data-turbolinks-track" => true %>
+
+	<!--	
 		<script src="jquery.min.js"></script>
-		<!-- Include all compiled plugins (below), or include individual files as needed -->
 		<script src="bootstrap.min.js"></script>
 		<script src="jquery.backstretch.min.js"></script>
 		<script src="jquery.countdown.min.js"></script>
@@ -255,5 +246,5 @@
 		<script src="wow.min.js"></script>
 		<script src="owl.carousel.min.js"></script>
 
-		<script src="init.js"></script>
+		<script src="init.js"></script> -->
 		
