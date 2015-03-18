@@ -5,7 +5,10 @@ NomadstaysLanding::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'launching#index'
+  root 'launching#en'
+
+  get 'en' => 'launching#en'
+  get 'es' => 'launching#es'
 
   post 'contact' => 'launching#contact'
 

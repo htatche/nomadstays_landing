@@ -1,0 +1,11 @@
+<div class="row">
+	<div class="col-sm-12">
+		<div class="language-selector">
+			<% if @language == "ENGLISH" %>
+				<%= link_to "SPANISH", controller: "launching", action: "es" %>
+			<% else %>
+			  <%= link_to "ENGLISH", controller: "launching", action: "en" %>
+			<% end %>
+		</div>
+	</div>
+</div>

@@ -277,6 +277,26 @@ form.signup button.btn {
   }
 }
 
+/* ---------------------------------------------------------
+ *	Language selector
+ * --------------------------------------------------------- */
+
+.language-selector {
+  text-align: right;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100px;
+  margin: 5px 5px 0 auto;
+}
+
+.language-selector:hover {
+  text-decoration: underline;
+}
+
+.language-selector a {
+  color: white;
+}
 
 /* ---------------------------------------------------------
  *	Timer
@@ -619,6 +639,29 @@ form.signup button.btn {
 	.arrow-down{
 		display: block;
 	}
+}
+
+/* ---------------------------------------------------------
+ *	Subscribe
+ * --------------------------------------------------------- */
+
+.subscribe .btn {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 200px;
+  margin: 5px 20px;
+  line-height: 30px;
+  opacity: 0.9;
+  background-color: #FFEB3B;
+}
+
+.subscribe .btn:hover {
+  opacity: 1;
+}
+
+.subscribe .btn a {
+  color: black;
 }
 
 /* Everything */
