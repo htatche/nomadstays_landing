@@ -1,9 +1,12 @@
 class LaunchingController < ApplicationController
+	skip_before_filter  :verify_authenticity_token
 
   def index
   end
 
 	def contact
+		Rails.logger.debug params
+
 		name = params[:name]
 		email = params[:contactEmail]
 		message = params[:message]
