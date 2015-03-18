@@ -12,7 +12,7 @@
  *
  *= require_self
  *= require bootstrap.min
- *= require font-awesome.min
+ *= require font-awesome
  *= require bootstrapValidator.min
  *= require ladda-themeless.min
  *= require animate.min
