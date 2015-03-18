@@ -12,3 +12,17 @@
 //
 //= require turbolinks
 //= require_tree .
+
+//= require jquery
+//= require bootstrap.min
+//= require jquery.backstretch.min
+//= require jquery.countdown.min
+//= require bootstrapValidator.min
+//= require emailAddress
+//= require spin.min
+//= require ladda.min
+//= require retina.min
+//= require wow.min
+//= require owl.carousel.min
+
+//= require init
