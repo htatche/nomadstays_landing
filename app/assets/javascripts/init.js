@@ -142,6 +142,8 @@ $(function () {
 
 	/* Contact form */
 
+	$( "#contactForm [name='message']" ).click(function() {$( event.target ).val('');})
+
 	$('#contactForm').bootstrapValidator({
 		fields: {
 			name: {
@@ -190,26 +192,27 @@ $(function () {
 			l.start();
 			btnText.html("Sending...");
 			
+
 			$.post(form.attr('action'), form.serialize(), function(result) {
-				if(result.sent){
-					btnText.html("Sent!");
-				}
-				else{
-					btnText.html("Error!");
-				}
-				
-				// Reset form after 5s
+			})
+			  .done(function() {
+			    btnText.html("Sent!");
+			  })
+			  .fail(function() {
+			    btnText.html("Error!");
+			  })
+			  .always(function() {
+			  // Reset form after 5s
 				setTimeout(function() {
 					btnText.html("Submit");
 					$(form[0])[0].reset();
 					validator.resetForm();
 				}, 5000);
-				
-			}, 'json')
-			.always(function() { 
+
 				l.stop(); 
-				validator.disableSubmitButtons(true);
+				validator.disableSubmitButtons(true);					
 			});
+
 		},
 	});
 });
