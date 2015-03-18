@@ -17,7 +17,7 @@ class LaunchingController < ApplicationController
 	  RestClient.post "https://api:key-ba42bb0914aedbf780a9481716e493f2"\
 	  "@api.mailgun.net/v3/mail.nomadstays.co/messages",
 	  :from => "Excited User <mailgun@mail.nomadstays.co>",
-	  :to => "bar@example.com, herve.tatche@gmail.com",
+	  :to => "herve.tatche@gmail.com",
 	  :subject => "Hello",
 	  :html => "<p><strong>#{name}</strong> (#{email}) wrote you this message: </p> <p> #{message}</p>"
 
