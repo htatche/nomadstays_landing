@@ -15,10 +15,10 @@ class LaunchingController < ApplicationController
 		message = params[:message]
 
 	  RestClient.post "https://api:key-ba42bb0914aedbf780a9481716e493f2"\
-	  "@api.mailgun.net/v2/sandboxac41e804e8e94410b7756bd3a746b783.mailgun.org/messages",
-	  :from => "Mailgun Sandbox <postmaster@sandboxac41e804e8e94410b7756bd3a746b783.mailgun.org>",
-	  :to => "Herve <herve.tatche@gmail.com>",
-	  :subject => "NomadStays Contact form",
+	  "@api.mailgun.net/v3/mail.nomadstays.co/messages",
+	  :from => "Excited User <mailgun@mail.nomadstays.co>",
+	  :to => "bar@example.com, herve.tatche@gmail.com",
+	  :subject => "Hello",
 	  :html => "<p><strong>#{name}</strong> (#{email}) wrote you this message: </p> <p> #{message}</p>"
 
 	  head :ok
