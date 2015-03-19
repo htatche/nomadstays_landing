@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"send",
+				"send_simple_message"
+			],
+			[
 				"text",
 				"text-align"
 			],
@@ -135,22 +139,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/index.html",
-			"settings":
-			{
-				"buffer_size": 13229,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
-			"settings":
-			{
-				"buffer_size": 15062,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -244,12 +232,65 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/htatche/Documents/Nomad Stays/Landing Page",
-		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files",
-		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets"
+		"/Users/htatche/dev/nomadstays_landing",
+		"/Users/htatche/dev/nomadstays_landing/app",
+		"/Users/htatche/dev/nomadstays_landing/app/assets",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts",
+		"/Users/htatche/dev/nomadstays_landing/app/views",
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching",
+		"/Users/htatche/dev/nomadstays_landing/public"
 	],
 	"file_history":
 	[
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching/en.html.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching/es.html.erb",
+		"/Users/htatche/dev/nomadstays_landing/Gemfile",
+		"/Users/htatche/dev/nomadstays_landing/app/controllers/launching_controller.rb",
+		"/Users/htatche/dev/nomadstays_landing/app/views/layouts/application.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/init.js",
+		"/Users/htatche/dev/nomadstays_landing/config/environments/production.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/environments/development.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/routes.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/environment.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/database.yml",
+		"/Users/htatche/dev/nomadstays_landing/config/boot.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/application.rb",
+		"/Users/htatche/dev/nomadstays_landing/config.ru",
+		"/Users/htatche/dev/nomadstays_landing/config/initializers/inflections.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/initializers/backtrace_silencers.rb",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/application.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/application.css",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/app.css",
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching/_language_selector.html.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching/index.html.erb",
+		"/Users/htatche/dev/nomadstays_landing/landing_page.sublime-project",
+		"/Users/htatche/dev/nomadstays_landing/config/locales/en.yml",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/font-awesome.min.css",
+		"/Users/htatche/dev/nomadstays_landing/config/initializers/filter_parameter_logging.rb",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/jquery.backstretch.min.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/retina.min.js",
+		"/Users/htatche/dev/nomadstays_landing/lib/assets/.keep",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/spin.min.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/settings-panel.css",
+		"/Users/htatche/dev/nomadstays_landing/log/production.log",
+		"/Users/htatche/dev/nomadstays_landing/db/production.sqlite3",
+		"/Users/htatche/dev/nomadstays_landing/public/assets/application-1585322670e9a40b91dc398527d7850f.css",
+		"/Users/htatche/dev/nomadstays_landing/app/controllers/application_controller.rb",
+		"/Users/htatche/dev/nomadstays_landing/.gitignore",
+		"/Users/htatche/dev/nomadstays_landing/mymail.rb",
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching/mymail.rb",
+		"/Users/htatche/dev/nomadstays_landing/.bundle/install.log",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/jquery.countdown.min.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/screen_preview.css",
+		"/Users/htatche/dev/nomadstays_landing/app/views/layouts/lol.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/controllers/welcomes_controller.rb",
+		"/Users/htatche/dev/nomadstays_landing/app/views/index.html",
+		"/Users/htatche/dev/nomadstays_landing/app/controllers/welcome_controller.rb",
+		"/Users/htatche/dev/nomadstays_landing/Rakefile",
+		"/Users/htatche/dev/nomadstays_landing/index.html",
+		"/Users/htatche/dev/nomadstays_landing/behavior.js",
+		"/Users/htatche/dev/nomadstays_landing/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
+		"/Users/htatche/dev/nomadstays_landing/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/index.html",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/init.js",
 		"/Users/htatche/Documents/Nomad Stays/Landing Page/SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/emailAddress.js",
@@ -328,56 +369,7 @@
 		"/Users/htatche/dev/ghost-0.5.3/content/themes/casper/assets/css/font-icons.css",
 		"/Users/htatche/dev/ghost-0.5.3/node_modules/busboy/node_modules/dicer/lib/HeaderParser.js",
 		"/Users/htatche/dev/ghost-0.5.3/node_modules/semver/head.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/body-parser/HISTORY.md",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/busboy/lib/main.js",
-		"/Users/htatche/dev/ghost-0.5.3/core/server/mail.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/express-hbs/node_modules/handlebars/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/knex/node_modules/liftoff/lib/parse_options.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/express-hbs/test/issues/23/partials/custom/comment-only.hbs",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/style.css",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/content-single.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/page.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/content-page.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/single.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/header.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/index.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-config.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/menu-projectes.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/menu-serveis.php.bk.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/sidebar.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/content.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/functions.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/footer.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/menu-nosaltres.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/menu-filosofia.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/menu-serveis.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/search.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-settings.php",
-		"/Users/htatche/dev/curios/src/templates/index.jade",
-		"/Users/htatche/dev/curios/public/main.css",
-		"/Users/htatche/dev/curios/stylesheets/main.sass",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/inc/custom-header.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/comments.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/404.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/plugins/xili-language/xili-includes/locales.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-includes/nav-menu-template.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/js/keyboard-image-navigation.js",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/image.php",
-		"/Users/htatche/dev/curios/public/index.html",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/inc/template-tags.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/languages/default.mo",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/js/small-menu.js",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/publish/archive.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/twentyfourteen/functions.php",
-		"/Users/htatche/dev/curios/.gitignore",
-		"/Users/htatche/dev/curios/bower_components/jquery/src/css/addGetHookIf.js",
-		"/Users/htatche/dev/curios/Gruntfile.js",
-		"/Users/htatche/dev/curios/node_modules/grunt-contrib-jade/node_modules/jade/lib/inline-tags.js",
-		"/Users/htatche/dev/curios/bower_components/bootstrap/less/variables.less",
-		"/Users/htatche/dev/curios/todo.txt",
-		"/Users/htatche/dev/curios/bower_components/bootstrap/dist/js/bootstrap.js",
-		"/Users/htatche/dev/curios/node_modules/twitter-bootstrap/less/accordion.less",
-		"/Users/htatche/dev/hbs2emblem/index.html"
+		"/Users/htatche/dev/ghost-0.5.3/node_modules/body-parser/HISTORY.md"
 	],
 	"find":
 	{
@@ -425,6 +417,43 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"twi",
+			"hover",
+			"I am a",
+			"#page",
+			"fontawesome-webfont",
+			"font-url('",
+			"?v=4.1.0",
+			"url",
+			"asset-",
+			"fonts",
+			"precom",
+			"?v=4.1.0",
+			"font-url",
+			"url",
+			"/assets/",
+			"<%=",
+			"[name=\"name\"]",
+			".form-control:",
+			"name",
+			"input",
+			"día",
+			"/assets/fonts/",
+			"fonts",
+			"semanas",
+			"weeks",
+			"descript",
+			"weeks",
+			"countdown",
+			"image_t",
+			"favico",
+			"images",
+			"image",
+			"images",
+			"img",
+			"image_ta",
+			"img",
+			"body",
 			"#home",
 			"office",
 			".container",
@@ -515,44 +544,7 @@
 			"2",
 			"per",
 			"page",
-			"posts",
-			"archive-templ",
-			"archive-templa",
-			".post {",
-			"archiv",
-			".post {",
-			"newer",
-			"pagi",
-			"hr {",
-			"border-bottom",
-			"var total",
-			"post-content .full",
-			"xml",
-			"post-title",
-			"article",
-			"main-header",
-			"overlay",
-			"main-header",
-			"media",
-			"scroll",
-			"arrow",
-			"scroll-down:af",
-			":after",
-			"scroll-down",
-			"arrow",
-			"media",
-			"back-but",
-			"contact",
-			"media",
-			"contact-b",
-			"main-nav.overl",
-			"background-color",
-			"contact-button",
-			"contact-butt",
-			"subscribe-button",
-			"subscribe-button:h",
-			"before",
-			"subscribe-button:before"
+			"posts"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -581,66 +573,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13229,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3251,
-								3251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 716.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15062,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8461,
-								8461
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 7690.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -695,20 +629,144 @@
 		"selected_items":
 		[
 			[
-				"init",
-				"SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/init.js"
+				"es.",
+				"app/views/launching/es.html.erb"
+			],
+			[
+				"en.h",
+				"app/views/launching/en.html.erb"
+			],
+			[
+				"es",
+				"app/views/launching/es.html.erb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"en",
+				"app/views/launching/en.html.erb"
+			],
+			[
+				"config",
+				"config/environments/production.rb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"lay",
+				"app/views/layouts/application.erb"
+			],
+			[
+				"init.",
+				"app/assets/javascripts/init.js"
+			],
+			[
+				"layo",
+				"app/views/layouts/application.erb"
+			],
+			[
+				"inde",
+				"app/views/launching/index.html.erb"
+			],
+			[
+				"language",
+				"app/views/launching/_language_selector.html.erb"
+			],
+			[
+				"ini",
+				"app/assets/javascripts/init.js"
+			],
+			[
+				"lau",
+				"app/controllers/launching_controller.rb"
+			],
+			[
+				"laun",
+				"app/controllers/launching_controller.rb"
 			],
 			[
 				"app",
-				"SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/app.css"
+				"app/assets/stylesheets/app.css"
+			],
+			[
+				"app.c",
+				"app/assets/stylesheets/app.css"
+			],
+			[
+				"en.",
+				"app/views/launching/en.html.erb"
+			],
+			[
+				"langua",
+				"app/views/launching/_language_selector.html.erb"
+			],
+			[
+				"launch",
+				"app/controllers/launching_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"en.ht",
+				"app/views/launching/en.html.erb"
+			],
+			[
+				"init",
+				"app/assets/javascripts/init.js"
+			],
+			[
+				"appl",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"index",
+				"app/views/launching/index.html.erb"
+			],
+			[
+				"produc",
+				"config/environments/production.rb"
+			],
+			[
+				"produ",
+				"config/environments/production.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"data",
+				"config/database.yml"
+			],
+			[
+				"application",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"index.",
+				"app/views/launching/index.html.erb"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"app.cs",
+				"app/assets/stylesheets/app.css"
 			],
 			[
 				"scree",
 				"SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/stylesheets/screen_preview.css"
-			],
-			[
-				"inde",
-				"SeventyTwo - Premium Coming Soon - Live Preview - WrapBootstrap_files/index.html"
 			],
 			[
 				"conf",
@@ -733,10 +791,6 @@
 			[
 				".gi",
 				".gitignore"
-			],
-			[
-				"config",
-				"config.js"
 			],
 			[
 				"style",
@@ -1085,126 +1139,6 @@
 			[
 				"order.jsc",
 				"app/assets/javascripts/pos/models/order.js.coffee"
-			],
-			[
-				"menuscontr",
-				"app/assets/javascripts/pos/controllers/menus_controller.js.coffee"
-			],
-			[
-				"salesbutton",
-				"app/assets/javascripts/pos/controllers/sales_screen_buttons_controller.js.coffee"
-			],
-			[
-				"lineitemjs",
-				"app/assets/javascripts/pos/models/line_item.js.coffee"
-			],
-			[
-				"salesbuttons",
-				"app/assets/javascripts/pos/controllers/sales_screen_buttons_controller.js.coffee"
-			],
-			[
-				"editselect",
-				"app/assets/javascripts/pos/controllers/edit_selected_line_item_controller.js.coffee"
-			],
-			[
-				"order_discount_department_buttons",
-				"app/assets/javascripts/pos/templates/order_discount_department_buttons.emblem"
-			],
-			[
-				"discountemblem",
-				"app/assets/javascripts/pos/templates/edit_discount_content.emblem"
-			],
-			[
-				"pos_lock",
-				"app/assets/javascripts/pos/util/pos_locks.js.coffee"
-			],
-			[
-				"productsizecontroll",
-				"app/assets/javascripts/pos/controllers/product_size_buttons_controller.js.coffee"
-			],
-			[
-				"editselectcontr",
-				"app/assets/javascripts/pos/controllers/edit_selected_line_item_controller.js.coffee"
-			],
-			[
-				"clock",
-				"app/assets/javascripts/pos/templates/clockin.emblem"
-			],
-			[
-				"paymentmethodembl",
-				"app/assets/javascripts/pos/templates/payment_methods.emblem"
-			],
-			[
-				"paymentmethodscon",
-				"app/assets/javascripts/pos/controllers/payment_methods_controller.js.coffee"
-			],
-			[
-				"modifierjs",
-				"app/assets/javascripts/pos/models/modifier.js.coffee"
-			],
-			[
-				"lineitemmodifierjs",
-				"app/assets/javascripts/pos/models/line_item_modifier.js.coffee"
-			],
-			[
-				"paymentmethodscontr",
-				"app/assets/javascripts/pos/controllers/payment_methods_controller.js.coffee"
-			],
-			[
-				"paymentmethodsjs",
-				"app/assets/javascripts/pos/controllers/payment_methods_controller.js.coffee"
-			],
-			[
-				"productjs",
-				"app/assets/javascripts/pos/models/product.js.coffee"
-			],
-			[
-				"modifierview",
-				"app/assets/javascripts/pos/views/modifiers_view.js.coffee"
-			],
-			[
-				"modifiercategoryjs",
-				"app/assets/javascripts/pos/models/modifier_category.js.coffee"
-			],
-			[
-				"responsiveu",
-				"app/assets/javascripts/pos/services/responsive/responsive_users.js.coffee"
-			],
-			[
-				"productsizeco",
-				"app/assets/javascripts/pos/controllers/product_size_buttons_controller.js.coffee"
-			],
-			[
-				"menus_r",
-				"app/assets/javascripts/pos/routes/menus_route.js.coffee"
-			],
-			[
-				"productsizecont",
-				"app/assets/javascripts/pos/controllers/product_size_buttons_controller.js.coffee"
-			],
-			[
-				"menusrout",
-				"app/assets/javascripts/pos/routes/menus_route.js.coffee"
-			],
-			[
-				"menusco",
-				"app/assets/javascripts/pos/controllers/menus_controller.js.coffee"
-			],
-			[
-				"productsizebutt",
-				"app/assets/javascripts/pos/controllers/product_size_buttons_controller.js.coffee"
-			],
-			[
-				"outletresourcesjs",
-				"app/views/api/sales_resources/outlet_resources.json.rabl"
-			],
-			[
-				"productmodifier",
-				"app/assets/javascripts/pos/models/product_modifier_category.js.coffee"
-			],
-			[
-				"keypadview",
-				"app/assets/javascripts/pos/views/keypad_view.js.coffee"
 			]
 		],
 		"width": 0.0
@@ -1216,7 +1150,7 @@
 		[
 			[
 				"",
-				"~/dev/cluey.sublime-project"
+				"~/dev/tetris/tetris.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -1289,7 +1223,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 210.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
