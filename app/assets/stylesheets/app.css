@@ -86,6 +86,16 @@ a:after {
 	transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
+@media (max-width: 768px) {
+	.img-responsive-small {
+	  display: block;
+	  width: 100% \9;
+	  max-width: 100%;
+	  height: auto;
+	  /*width: 100%;*/
+	}
+}
+
 
 /* ---------------------------------------------------------
  *	Bootstrap override
@@ -674,6 +684,12 @@ form.signup button.btn {
 	text-align: center;
 	background: #303F9F;
 	/*color: #626262;*/
+}
+
+@media (max-width: 768px) { 
+	#everything .lead {
+		margin-top: 20px;
+	}	
 }
 
 #about h1,
