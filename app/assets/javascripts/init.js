@@ -126,7 +126,8 @@ $(function () {
 				{lat: -41.262714, lng: 174.817345},   // New Zealand (Wellington)
 				{lat: 51.816908, lng: -0.257289},   // UK (London 2)
 				{lat: 41.495123, lng: -74.593224},   // US (NY 2) 40.390247, -3.685023
-				{lat: 40.390247, lng: -3.685023}   // Spain (Madrid) 
+				{lat: 40.390247, lng: -3.685023},   // Spain (Madrid) 
+				{lat: 34.791564, lng: 9.483860}   // Tunisia
 			];
 
 			var marker;
