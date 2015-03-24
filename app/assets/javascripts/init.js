@@ -96,7 +96,50 @@ $(function () {
 	      itemsDesktopSmall : [979,1],
 	      itemsTablet : [768,1]
 	 
-	  });
+	  }); 
+
+    function initialize() {
+      var mapOptions = { 
+        center: { lat: 19.528582, lng: 7.975645}, //{ lat: 19.752588, lng: -1.571661}, , 
+        zoom: 2
+      };
+      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+      // Countries
+			var countries = [
+				{lat: 14.000228, lng: 100.468376}, // Thailand
+				{lat: 53.330034, lng: -6.212053},   // Ireland
+				{lat: -11.787581, lng: -77.033873},   // Peru
+				{lat: -37.586356, lng: 144.926830},   // Australia
+				{lat: 51.708113, lng: -0.433070},   // UK
+				{lat: 39.493207, lng: -76.308782},   // US NY 
+				{lat: 11.686892, lng: 104.876244},   // Cambodia		 									
+				{lat: 50.845719, lng: 4.391315},   // Belgium
+				{lat: -34.609072, lng: -58.427977},   // Argentina 		 									
+				{lat: 50.710468, lng: -123.729490},   // Canada (Vancouver)		 													
+				{lat: 33.818997, lng:  -118.055135},   // US (Los Angeles)		 									
+				{lat: 4.524553, lng: -73.983398},   // Colombia		 									
+				{lat: 41.528031, lng: 2.113321},   // Spain (Barcelona)		 									
+				{lat: -23.561333, lng: -46.649414},   // Brazil (Sao Paolo)		 									
+				{lat: 14.000290, lng: 100.468376}, // Thailand (Bangkok 2)	 									
+				{lat: -26.136666, lng: 28.176865},   // South Africa (Johannesburg)	 		
+				{lat: -41.262714, lng: 174.817345},   // New Zealand (Wellington)
+				{lat: 51.816908, lng: -0.257289},   // UK (London 2)
+				{lat: 41.495123, lng: -74.593224},   // US (NY 2) 40.390247, -3.685023
+				{lat: 40.390247, lng: -3.685023}   // Spain (Madrid) 
+			];
+
+			var marker;
+
+			for (var i=0; i<countries.length; ++i) {
+	      marker = new google.maps.Marker({ 
+			    position: new google.maps.LatLng(countries[i].lat, countries[i].lng),
+			    map: map
+				});
+			}
+
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);	  
 	 
 	});
 

@@ -245,10 +245,13 @@
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/en.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/es.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/Gemfile",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/app.css",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/init.js",
+		"/Users/htatche/dev/nomadstays_landing/config/initializers/session_store.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/initializers/secret_token.rb",
+		"/Users/htatche/dev/nomadstays_landing/config/environments/production.rb",
 		"/Users/htatche/dev/nomadstays_landing/app/controllers/launching_controller.rb",
 		"/Users/htatche/dev/nomadstays_landing/app/views/layouts/application.erb",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/init.js",
-		"/Users/htatche/dev/nomadstays_landing/config/environments/production.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/environments/development.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/routes.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/environment.rb",
@@ -260,7 +263,6 @@
 		"/Users/htatche/dev/nomadstays_landing/config/initializers/backtrace_silencers.rb",
 		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/application.js",
 		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/application.css",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/app.css",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/_language_selector.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/index.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/landing_page.sublime-project",
@@ -367,9 +369,7 @@
 		"/Users/htatche/dev/ghost-0.5.3/node_modules/moment/moment.js",
 		"/Users/htatche/dev/ghost-0.5.3/node_modules/colors/example.html",
 		"/Users/htatche/dev/ghost-0.5.3/content/themes/casper/assets/css/font-icons.css",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/busboy/node_modules/dicer/lib/HeaderParser.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/semver/head.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/body-parser/HISTORY.md"
+		"/Users/htatche/dev/ghost-0.5.3/node_modules/busboy/node_modules/dicer/lib/HeaderParser.js"
 	],
 	"find":
 	{
@@ -417,6 +417,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"image_",
+			"max-wid",
+			".container",
+			"sm",
+			"lead",
 			"twi",
 			"hover",
 			"I am a",
@@ -539,12 +544,7 @@
 			"home",
 			"arrow",
 			"main-header",
-			".main-header",
-			"margin",
-			"2",
-			"per",
-			"page",
-			"posts"
+			".main-header"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -629,11 +629,7 @@
 		"selected_items":
 		[
 			[
-				"es.",
-				"app/views/launching/es.html.erb"
-			],
-			[
-				"en.h",
+				"en",
 				"app/views/launching/en.html.erb"
 			],
 			[
@@ -641,11 +637,31 @@
 				"app/views/launching/es.html.erb"
 			],
 			[
+				"ap",
+				"app/assets/stylesheets/app.css"
+			],
+			[
+				"g",
+				"Gemfile"
+			],
+			[
 				"gem",
 				"Gemfile"
 			],
 			[
-				"en",
+				"css",
+				"app/assets/stylesheets/app.css"
+			],
+			[
+				"init.",
+				"app/assets/javascripts/init.js"
+			],
+			[
+				"es.",
+				"app/views/launching/es.html.erb"
+			],
+			[
+				"en.h",
 				"app/views/launching/en.html.erb"
 			],
 			[
@@ -659,10 +675,6 @@
 			[
 				"lay",
 				"app/views/layouts/application.erb"
-			],
-			[
-				"init.",
-				"app/assets/javascripts/init.js"
 			],
 			[
 				"layo",
@@ -1126,18 +1138,6 @@
 			],
 			[
 				"orderjsc",
-				"app/assets/javascripts/pos/models/order.js.coffee"
-			],
-			[
-				"orderdiscountdeptc",
-				"app/assets/javascripts/pos/controllers/order_discount_department_buttons_controller.js.coffee"
-			],
-			[
-				"department",
-				"app/assets/javascripts/pos/templates/order_discount_department_buttons.emblem"
-			],
-			[
-				"order.jsc",
 				"app/assets/javascripts/pos/models/order.js.coffee"
 			]
 		],

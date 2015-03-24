@@ -44,7 +44,6 @@
 									</div>
 								</div>							
 							</div>
-								
 						</div>
 
 						<input type="hidden" value=""></form>
@@ -53,17 +52,22 @@
 								<a href="https://www.facebook.com/nomadstays" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
 								<a href="https://twitter.com/nomadstays" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
 								<a href="https://plus.google.com/u/0/b/110133156408126953660/110133156408126953660/about" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
-							</div>
-						</footer>
+							</div></footer>
 					</div>
 					<div class="arrow-down">
 						<a class="scroll" href="#everything" id="scroll"><i class="fa fa-angle-double-down"></i></a>
 					</div>
-				</div>
+				</div>				
 			</div>
+
+		<div class="google-maps-container">
+			<div id="map-canvas"></div>
+		</div>
+
 		</section>
 
 		<!-- Anything -->
+		
 		<section id="everything" class="section">
 			<div class="container">
 				<div class="row">
@@ -120,11 +124,17 @@
 			</div>
 			<div class="google-maps-container">
 				<div id="cities-carroussel">
-				  <div class="item"><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=13.7563%2C100.5018&key=AIzaSyCL0luT17PgvuWglbUMeVBGenoB0XrKMUM"></iframe> </div>
+				  <div class="item"><%= image_tag "cities/bangkok.jpg", :class => "img-responsive-small" %></div>
+
+				  <div class="item"><%= image_tag "cities/bogota.jpg", :class => "img-responsive-small" %></div>
+
+				  <div class="item"><%= image_tag "cities/jakarta.jpg", :class => "img-responsive-small" %></div>
+			
+<!-- 				  <div class="item"><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=13.7563%2C100.5018&key=AIzaSyCL0luT17PgvuWglbUMeVBGenoB0XrKMUM"></iframe> </div>
 
 				  <div class="item"><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=12&center=-17.3833%2C-66.1667&key=AIzaSyCL0luT17PgvuWglbUMeVBGenoB0XrKMUM"></iframe> </div>
 
-				  <div class="item"><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=52.2297,21.0122&key=AIzaSyCL0luT17PgvuWglbUMeVBGenoB0XrKMUM"></iframe> </div>
+				  <div class="item"><iframe width="100%" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/view?zoom=10&center=52.2297,21.0122&key=AIzaSyCL0luT17PgvuWglbUMeVBGenoB0XrKMUM"></iframe> </div> -->
 
 				</div>							
 			</div>				
@@ -164,35 +174,21 @@
 					
 			</div>
 		</section>
+
+		<!-- Our team -->
+		<%= render "team" %>
 		
 		<!-- Contact -->
 		<section id="contact" class="section">
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h3 class="section-title">Who am I</h3>
+						<h3 class="section-title">Contact</h3>
 						<div class="section-title-border"></div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6">
-						<div class="myself">
-							<a href="http://blog.thistimeisforgood.com/"> <%= image_tag "http://www.gravatar.com/avatar/cc4b0c9de39095e1d04a8257246a9a09.png", :class => "gravatar" %> </a>
-							<h4> <a href="http://blog.thistimeisforgood.com/"> @htatche </a> </h4>
-								<div class="social">
-									<a href="https://twitter.com/htatche" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
-									<a href="https://www.linkedin.com/profile/view?id=82546010" class="btn btn-theme"><i class="fa fa-linkedin"></i></a>
-									<a href="https://github.com/htatche" class="btn btn-theme"><i class="fa fa-github"></i></a>
-								</div>						
-								<p class="description">
-									Two years ago I packed my laptop and left my hometown,
-									after hopping between several countries it's in Bolivia where
-									I am kicking off my dream.
-									<strong>Travel</strong>, <strong>work</strong>, <strong>enjoy</strong>.
-								</p>
-						</div>
-					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-12">
 						<form class="form-horizontal bv-form" action="/contact" method="post" role="form" id="contactForm" novalidate="novalidate">
 							<div class="form-group has-feedback">
 								<div class="col-sm-6">
@@ -204,7 +200,7 @@
 							</div>
 							<div class="form-group has-feedback">
 								<div class="col-sm-12">
-									<textarea name="message" class="form-control" rows="8" placeholder="Message" data-bv-field="message">Hey Herve ! I found out about this new venture and would like to get in touch with you !
+									<textarea name="message" class="form-control" rows="8" placeholder="Message" data-bv-field="message">Hi guys ! I found out about this new venture and would like to get in touch with you.
 									</textarea>
 									<i class="form-control-feedback" data-bv-icon-for="message" style="display: none; top: 0px;"></i>
 								<small data-bv-validator="notEmpty" data-bv-validator-for="message" class="help-block" style="display: none;">Message cannot be empty</small></div>
@@ -221,6 +217,7 @@
 				</div>
 			</div>
 		</section>
-		
+
+
  	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
 		
