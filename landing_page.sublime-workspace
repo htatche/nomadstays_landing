@@ -139,11 +139,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/assets/javascripts/init.js",
+			"settings":
+			{
+				"buffer_size": 6908,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 307.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -238,31 +259,39 @@
 		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts",
 		"/Users/htatche/dev/nomadstays_landing/app/views",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching",
+		"/Users/htatche/dev/nomadstays_landing/app/views/layouts",
 		"/Users/htatche/dev/nomadstays_landing/public"
 	],
 	"file_history":
 	[
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/init.js",
+		"/Users/htatche/dev/nomadstays_landing/app/views/launching/_team.html.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/app.css",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/en.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/es.html.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/views/layouts/application.erb",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/application.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/application.css",
+		"/Users/htatche/dev/nomadstays_landing/config/application.rb",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/spin.min.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/bootstrapValidator.min.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/jquery.min.js",
+		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/retina.min.js",
+		"/Users/htatche/dev/nomadstays_landing/.gitignore",
+		"/Users/htatche/dev/nomadstays_landing/public/robots.txt",
 		"/Users/htatche/dev/nomadstays_landing/Gemfile",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/app.css",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/init.js",
 		"/Users/htatche/dev/nomadstays_landing/config/initializers/session_store.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/initializers/secret_token.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/environments/production.rb",
 		"/Users/htatche/dev/nomadstays_landing/app/controllers/launching_controller.rb",
-		"/Users/htatche/dev/nomadstays_landing/app/views/layouts/application.erb",
 		"/Users/htatche/dev/nomadstays_landing/config/environments/development.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/routes.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/environment.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/database.yml",
 		"/Users/htatche/dev/nomadstays_landing/config/boot.rb",
-		"/Users/htatche/dev/nomadstays_landing/config/application.rb",
 		"/Users/htatche/dev/nomadstays_landing/config.ru",
 		"/Users/htatche/dev/nomadstays_landing/config/initializers/inflections.rb",
 		"/Users/htatche/dev/nomadstays_landing/config/initializers/backtrace_silencers.rb",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/application.js",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/application.css",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/_language_selector.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/index.html.erb",
 		"/Users/htatche/dev/nomadstays_landing/landing_page.sublime-project",
@@ -270,15 +299,12 @@
 		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/font-awesome.min.css",
 		"/Users/htatche/dev/nomadstays_landing/config/initializers/filter_parameter_logging.rb",
 		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/jquery.backstretch.min.js",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/retina.min.js",
 		"/Users/htatche/dev/nomadstays_landing/lib/assets/.keep",
-		"/Users/htatche/dev/nomadstays_landing/app/assets/javascripts/spin.min.js",
 		"/Users/htatche/dev/nomadstays_landing/app/assets/stylesheets/settings-panel.css",
 		"/Users/htatche/dev/nomadstays_landing/log/production.log",
 		"/Users/htatche/dev/nomadstays_landing/db/production.sqlite3",
 		"/Users/htatche/dev/nomadstays_landing/public/assets/application-1585322670e9a40b91dc398527d7850f.css",
 		"/Users/htatche/dev/nomadstays_landing/app/controllers/application_controller.rb",
-		"/Users/htatche/dev/nomadstays_landing/.gitignore",
 		"/Users/htatche/dev/nomadstays_landing/mymail.rb",
 		"/Users/htatche/dev/nomadstays_landing/app/views/launching/mymail.rb",
 		"/Users/htatche/dev/nomadstays_landing/.bundle/install.log",
@@ -365,11 +391,7 @@
 		"/Users/htatche/dev/ghost-0.5.3/core/server/xmlrpc.js",
 		"/Users/htatche/dev/ghost-0.5.3/content/themes/casper/assets/js/index.js",
 		"/Users/htatche/dev/ghost-0.5.3/content/themes/casper/tag.hbs",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/cheerio/Makefile",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/moment/moment.js",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/colors/example.html",
-		"/Users/htatche/dev/ghost-0.5.3/content/themes/casper/assets/css/font-icons.css",
-		"/Users/htatche/dev/ghost-0.5.3/node_modules/busboy/node_modules/dicer/lib/HeaderParser.js"
+		"/Users/htatche/dev/ghost-0.5.3/node_modules/cheerio/Makefile"
 	],
 	"find":
 	{
@@ -417,6 +439,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"map",
+			", :class => \"img-responsive-small\"",
+			".container",
+			"#team",
+			", :class => \"img-responsive-small\"",
+			"</strong>",
+			"map",
+			"google-maps-c",
+			"map",
+			"map-",
+			"initiali",
+			"map",
+			"map-canva",
+			"map-canvas",
+			"<strong>",
+			",",
+			"myself",
+			".team",
 			"image_",
 			"max-wid",
 			".container",
@@ -526,25 +566,7 @@
 			"world",
 			"2",
 			"column",
-			"1",
-			"random_x",
-			"game.world.randomX",
-			"boun",
-			"var",
-			"block",
-			"ground",
-			"walls_collision_group",
-			"ship",
-			"column",
-			"Pandas",
-			"pandas",
-			"blocks",
-			"blocks_group",
-			"image",
-			"home",
-			"arrow",
-			"main-header",
-			".main-header"
+			"1"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -573,8 +595,66 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/assets/javascripts/init.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6908,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4004,
+								4004
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1715.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -617,6 +697,7 @@
 	{
 		"height": 100.0
 	},
+	"pinned_build_system": "",
 	"project": "landing_page.sublime-project",
 	"replace":
 	{
@@ -626,15 +707,44 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"init",
+				"app/assets/javascripts/init.js"
+			],
+			[
+				"es",
+				"app/views/launching/es.html.erb"
+			],
 			[
 				"en",
 				"app/views/launching/en.html.erb"
 			],
 			[
-				"es",
-				"app/views/launching/es.html.erb"
+				"team",
+				"app/views/launching/_team.html.erb"
+			],
+			[
+				"app.",
+				"app/assets/stylesheets/app.css"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"app.css",
+				"app/assets/stylesheets/app.css"
+			],
+			[
+				"appli",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"app",
+				"app/assets/stylesheets/app.css"
 			],
 			[
 				"ap",
@@ -642,10 +752,6 @@
 			],
 			[
 				"g",
-				"Gemfile"
-			],
-			[
-				"gem",
 				"Gemfile"
 			],
 			[
@@ -667,10 +773,6 @@
 			[
 				"config",
 				"config/environments/production.rb"
-			],
-			[
-				"appli",
-				"config/application.rb"
 			],
 			[
 				"lay",
@@ -701,10 +803,6 @@
 				"app/controllers/launching_controller.rb"
 			],
 			[
-				"app",
-				"app/assets/stylesheets/app.css"
-			],
-			[
 				"app.c",
 				"app/assets/stylesheets/app.css"
 			],
@@ -727,10 +825,6 @@
 			[
 				"en.ht",
 				"app/views/launching/en.html.erb"
-			],
-			[
-				"init",
-				"app/assets/javascripts/init.js"
 			],
 			[
 				"appl",
@@ -1127,18 +1221,6 @@
 			[
 				"currentordersemb",
 				"app/assets/javascripts/pos/templates/current_orders.emblem"
-			],
-			[
-				"currentorderssa",
-				"app/assets/stylesheets/pos/default/current_orders.css.sass"
-			],
-			[
-				"ordercontr",
-				"app/assets/javascripts/pos/controllers/order_controller.js.coffee"
-			],
-			[
-				"orderjsc",
-				"app/assets/javascripts/pos/models/order.js.coffee"
 			]
 		],
 		"width": 0.0
@@ -1146,6 +1228,7 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1158,6 +1241,7 @@
 	"select_symbol":
 	{
 		"height": 392.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
